@@ -9,19 +9,14 @@
    Desktop: 992px até 1200px
    Grandes Telas: acima de 1200px   
 */
-@media screen and (min-width:600px), screen and (max-height: 300px) /* Versão Celular Deitado */
+@media screen and (min-width:600px), screen and (max-height: 300px) /* Versão Celular Deitado Landscape */
 {
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82
         );
-    }
-    main{
-        padding: 30px;
-        height: 90px;
-        
-    }
+    }    
     section#login {
-        margin-top: 19vw;
+        
         width: 80vw;
         height: 90vh;
     }
