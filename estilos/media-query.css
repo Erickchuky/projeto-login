@@ -9,7 +9,7 @@
    Desktop: 992px até 1200px
    Grandes Telas: acima de 1200px   
 */
-@media screen and (min-width:600px), screen and (max-height: 300px) /* Versão Celular Deitado Landscape */
+@media screen and (max-height: 350px) /* Versão Celular Deitado Landscape */
 {
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82
@@ -19,15 +19,53 @@
         width: 80vw;
         height: 90vh;
     }
+    div#formulario > h1{
+        text-align: center;
+        margin-bottom: 2px;
+        font-size: 1.5em;
+    }
     section#login > div#imagem{
         float: left;
-        width: 90%;
+        width: 60%;
         height: 100%;
     }
     section#login > div#imagem{
         float: right;
-        width: 60%;
+        width: 35%;
         height: 100%;
+    }
+    form > div.campo{
+        background-color: #5f2c82;
+        display: block;
+        width: 62%;
+        height: 35px;
+        border-radius: 5px;
+        margin: 5px 0px;
+    }
+    form > input[type=submit]{
+        display: block;
+        font-size: 1em;
+        width: 62%;
+        height: 30px;
+        background-color: rgba(98, 150, 150, 0.641);
+        color: aliceblue;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    form > a.botao{
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        width: 62%;
+        height: 35px;
+        padding-top: 5px;
+        margin-top: 5px;
+        color:  rgb(3, 100, 100);
+        background-color: rgb(249, 250, 250);
+        border: 1px solid  rgb(2, 131, 131);
+        border-radius: 7px;
+        text-decoration: none;
     }
     
 }
@@ -43,14 +81,14 @@
         width: 80vw;
     }
     section#login > div#imagem{
-        float: left;
-        width: 30%;
-        height: 100%;
-    }
-    section#login > div#imagem{
         float: right;
         width: 50%;
+        height: 100%;
     }
+    section#login > div#formulario {
+        float: left;
+        width: 50%;
+    } 
     
 }
 @media screen and (min-width: 992px) {
