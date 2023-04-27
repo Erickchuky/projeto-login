@@ -67,6 +67,21 @@
         border-radius: 7px;
         text-decoration: none;
     }
+    div.campo > span {
+        color: white;
+        /*background-color: black;*/
+        font-size: 1.7em;
+        width: 45px;
+        padding: 5px;
+    }
+    div.campo > input{
+        background-color:rgba(178, 237, 237, 0.982);
+        font-size: 1em;
+        width: calc(100% -40px);
+        height: 90%;
+        border-radius: 8px;
+        transform: translateY(-8px);
+    }
     
 }
 
@@ -89,7 +104,24 @@
         float: left;
         width: 50%;
     } 
-    
+    div.campo > span {
+        
+        color: white;
+        /*background-color: black;*/
+        font-size: 1.8em;
+        width: 39px;
+        padding: 5px;
+    }
+    div.campo > input{
+        
+        background-color:rgba(178, 237, 237, 0.982);
+        font-size: 1em;
+        width: calc(100% - 44px);
+        height: 90%;
+        border-radius: 8px;
+        transform: translateY(-8px);
+ 
+    }   
 }
 @media screen and (min-width: 992px) {
     body{
@@ -112,6 +144,25 @@
         font-size: 2em;
     }
     div#formulario > p{
-        font-size: 1.2em;
+        font-size: 1em;
+        padding: 10px;
     }
+    div.campo > span {
+        
+        color: white;
+        /*background-color: black;*/
+        font-size: 1.8em;
+        width: 39px;
+        padding: 5px;
+    }
+    div.campo > input{
+        
+        background-color:rgba(178, 237, 237, 0.982);
+        font-size: 1em;
+        width: calc(100% - 44px);
+        height: 90%;
+        border-radius: 8px;
+        transform: translateY(-8px);
+ 
+    } 
 }
