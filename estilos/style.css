@@ -69,13 +69,13 @@ div.campo > span {
     color: white;
     /*background-color: black;*/
     font-size: 1.5em;
-    width: 60px;
+    width: 40px;
     padding: 5px;
 }
 div.campo > input{
     background-color:rgba(178, 237, 237, 0.982);
     font-size: 1em;
-    width: calc(100% - 70px);
+    width: calc(100% - 50px);
     height: 90%;
     border-radius: 8px;
     transform: translateY(-2px);
